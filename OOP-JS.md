@@ -1002,6 +1002,9 @@ in `meAlso.info()`  this is what is js engine do under the hood :  search on `me
 
 In this case, the `Number` object inherits from the `Object` object, so its `__proto__` property points to `Object.prototype`. And `Object.prototype` is the base prototype for all objects in JavaScript, so `(1).__proto__.__proto__` is equal to `Object.prototype`.
 
+-  in JavaScript, functions are objects. Functions in JavaScript have properties and methods, just like any other object, and they can be assigned to variables, passed as arguments to other functions, or added to objects as properties
+
+- Functions in JavaScript are callable objects, which means they can be invoked by using parentheses `()` after the function name. Normal objects, on the other hand, are not callable, but they can have properties and methods associated with them.
 
 ---
 
